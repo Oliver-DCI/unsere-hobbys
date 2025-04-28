@@ -2,4 +2,59 @@ h1{
     background-color: black;
     color:white;
     font-family: 'Courier New', Courier, monospace;
+    box-shadow: 10px 5px 5px rgb(172, 159, 159);
+    /* width: fit-content; */
+}
+p{
+    box-shadow: 10px 5px 5px rgb(172, 159, 159);
+}
+h2{
+    background-color: black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 10px 5px 5px rgb(172, 159, 159);
+    width: fit-content; 
+    margin: 0px;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 9999px;
+    box-shadow: 10px 5px 5px rgb(172, 159, 159);
+}
+.flex_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.hobby-section{
+    box-shadow: 10px 5px 5px rgb(172, 159, 159);
+    width: fit-content; 
+    padding-bottom: 3px;
+}
+#olli-pfaff{
+     /* border: 1px solid rgb(8, 146, 238); */
+
+}
+#heiko-eschke h2{
+    color: blue;
+    border: 2px solid blue;
+}
+#heiko-eschke ul{
+    color: red;
+
+}
+#olli-pfaff h2{
+    color: red;
+    border: 2px solid red;
+}
+#olli-pfaff ul{
+    color: rgb(0, 0, 255);
+
+}
+.hobby-h2{
+    width: 200px;
 }
